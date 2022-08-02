@@ -1,0 +1,1133 @@
+* {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+main {
+    background-image: url(../img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    header {
+        background-color:#04aeb2;
+    }
+    header img{
+        width:100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:20px;
+    }
+    /* estilo del nav*/
+    nav {
+        background-color: #ebfbfb;
+    }
+    ul{
+        display:flex;
+        flex-direction:column;
+    }
+    nav ul li {
+        font-size:1rem;
+        padding: 10px;
+        margin-left:auto;
+        margin-right: auto;
+        list-style-type: none;
+    }
+    ul li a {
+        color: #7d7d7d;
+        text-decoration: none;
+    }
+    /*Estilo Index*/
+    .presentacionPersonal{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+    .presentacionPersonal img{
+        width:80%;
+    }
+    .textoPresentacion{
+        text-align: center;
+    }
+    .textoPresentacion h1{
+        font-size:2rem;
+        color: #7d7d7d;
+        line-height:35px;
+    }
+    .textoPresentacion {
+        color: #7d7d7d;
+        line-height:28px;
+    }
+    .habilidades{
+        background-color:#f5f5f5;
+        width: 100%;
+        border-radius:20px;
+        padding-top:10px;
+        margin-bottom:20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .habilidades img{
+        width:100%;
+    }
+    .soluciones h2, .creatividad h2, .tecnica h2{
+        color: #04aeb2;
+    }
+    
+    .portadasTrabajo{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+    .portadasTrabajo h3{
+        text-align: center;
+        color: #04aeb2;
+    }
+    .cardImpresos{
+        width:100%;
+        background-color: white;
+        border-radius:20px;
+        box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.13);
+        -webkit-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.13);
+        -moz-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.13);
+        
+    }
+    .cardImpresos img{
+        width:100%;
+    }
+    .cardRedes{
+        width:100%;
+        background-color: white;
+        margin:10px 0 10px 0;
+        border-radius:20px;
+        box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.13);
+        -webkit-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.13);
+        -moz-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.13);
+
+    }
+    .cardRedes img{
+        width:100%;
+        align-items: center;
+    }
+    .cardDigital{
+        width:100%;
+        background-color: white;
+        border-radius:20px;
+        box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.13);
+        -webkit-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.13);
+        -moz-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.13);
+        
+    }
+    .cardDigital img{
+        width:100%;
+    }
+    .cajaContenidoMusica{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom:20px;
+    }
+    .tituloCanciones{
+        margin-left:auto;
+        margin-right: auto;
+        width:100%;
+        text-align:center;
+        font-size:1.5rem;
+        color:#ffffff;
+        background-color: #04aeb2;
+        border-radius:20px;
+    }
+    .cajaContenidoMusica iframe{
+        width:100%;
+        height:100px;
+        margin-bottom:10px;
+    }
+    /* estilo del footer*/
+    footer {
+        background-color:#000000;
+        padding-top: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+    footer ul li {
+        text-align:center;
+        line-height:30px;
+    }
+    footer p{
+        font-size:15px;
+        color: #5a5a5a;
+        text-align: center;
+        padding-bottom:20px;
+    }
+    /*Estilo Pagina Impresos, redes sociales*/
+    .titulos{
+        text-align: center;
+        font-size:2rem;
+        color: #7d7d7d;
+        }
+    .subTitulos{
+        text-align: center;
+        Color:#ffffff;
+        background-color: #04aeb2;
+        border-radius:100px;
+        width:100%;
+        }
+    .textos{
+        color: #7d7d7d;
+        font-size: 1rem;
+        text-align: center;
+        }
+    .textosSecundarios{
+        color: #04aeb2;
+        font-size: 1rem;
+        text-align: center;
+        }
+
+    .contenido{
+        margin-bottom:20px;
+    }
+    .cotillon{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cotillon img{
+        width:100%;
+    }
+    .cuadernos{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cuadernos img{
+        width:100%;
+    }
+    .delantales{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+    .delantales img{
+        width:100%;
+    }
+
+    .post{
+        margin-bottom:20px;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+    .post img{
+        width:100%;
+        margin-bottom:20px;
+    }
+    .banners{
+        margin-bottom:20px;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center
+    }
+    .banners img{
+        width:100%;
+        margin-bottom:10px;
+
+    }
+    .mailing{
+        margin-bottom:20px;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center
+    }
+    .mailing img{
+        width:100%;
+        margin-bottom:10px;
+
+    }
+    /* contacto*/
+    .formulario{
+        
+        background-color:#04aeb2;
+        padding:10px;
+        border-radius:10px;
+        box-shadow: 0px 1px 7px 2px rgba(0,0,0,0.115);
+        -webkit-box-shadow: 0px 1px 7px 2px rgba(0, 0, 0, 0.115);
+        -moz-box-shadow: 0px 1px 7px 2px rgba(0,0,0,0.115);
+        width:100%;
+        margin-bottom: 30px;
+    }
+    .campoNombre{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #80cbcc;
+        margin-bottom:10px;
+        padding:10px;
+        border-radius:10px;
+
+    }
+    label{
+        color: #ffffff;
+    }
+    #campoNombre{
+        height:40px;
+        width: 90%;
+        border-radius:10px;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+    
+
+    .campoMail{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #80cbcc;
+        margin:10px;
+        padding:10px;
+        border-radius:10px;
+    }
+    #campoMail{
+        height:40px;
+        width:90%;
+        border-radius: 10px;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+    
+    .campoTelefono{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #80cbcc;
+        margin:10px;
+        padding:10px;
+        border-radius:10px;
+    }
+    #campoTelefono{
+        height:40px;
+        width: 90%;
+        border-radius:10px;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+    
+    .campoMensaje{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #80cbcc;
+        margin:10px;
+        padding:10px;
+        border-radius:10px;
+    }
+    #mensajeArea{
+        height:250px;
+        width: 90%;
+        border-radius:10px;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+    .boton{
+        background-color:#ffffff;
+        color: #04aeb2;
+        margin-left: auto;
+        margin-right: auto;
+        width:100%;
+        height:50px;
+        border-radius:20px;
+    }
+    ::placeholder{
+        color: #b3b3b3;
+        text-align: center;
+    }
+
+
+    
+    @media(min-width:480px){
+        .habilidades{
+        background-color:#f5f5f5;
+        width: 100%;
+        display: flex;
+        flex-direction:row;
+        justify-items:center;
+        align-items:center;
+        border-radius:10px;
+        padding-top:10px;
+        margin-bottom:20px;
+        }
+        .soluciones img,.creatividad img,.tecnica img{
+            width:70%;
+
+            
+        }
+        .soluciones h2,.creatividad h2,.tecnica h2{
+            font-size:0.8rem;
+        }
+        /*Estilo Pagina Impresos, redes sociales, digital*/
+        .subTitulos{
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            Color:#ffffff;
+            background-color: #04aeb2;
+            border-radius:100px;
+            width:60%;
+            }
+    }
+    @media(min-width:600px){
+        nav ul li {
+            font-size:1rem;
+        }
+        .tituloCanciones{
+            margin-left:auto;
+            margin-right: auto;
+            width:70%;
+            text-align:center;
+            font-size:1.5rem;
+            color:#ffffff;
+            background-color: #04aeb2;
+            border-radius:20px;
+        }
+        .cajaContenidoMusica iframe{
+          width:250px;
+          height:380px;
+          margin-right:20px;
+      }
+        footer ul{
+            display: flex;
+            flex-direction:row;
+            justify-content: center;
+            list-style-type:none;
+        }
+        footer li{
+            width:200px;
+            text-align: center;
+        }
+        /*Estilo Pagina Impresos, redes sociales y digital*/
+        .contenido{
+            margin-bottom:20px;
+        }
+        .cotillon img{
+            width:100%;
+        }
+        .cotillon{
+            margin-bottom:50px;
+            display:grid;
+            grid-template-columns:1fr 3fr 3fr 3fr 1fr;
+            grid-template-areas: 
+        " . A B C . "
+        ". D E F . "
+        ". G H I . "
+        }
+        .cintilloFiesta{
+            grid-area:A;
+        }
+        .cintilloAlcohol{
+            grid-area:B;
+        }
+        .cintilloFeminista{
+            grid-area: C;
+        }
+        .cintilloPuno{
+            grid-area: D;
+        }
+        .cintilloFiestaAlcohol{
+            grid-area:E;
+
+        }
+        .cintilloBebedor{
+            grid-area:F;
+        }
+        .cotillonMesa{
+            grid-area:G;
+        }
+        .cotillonPrincesa{
+            grid-area:H;
+        }
+        .cotillonChile{
+            grid-area:I;
+        }
+        
+        .cuadernos img{
+            width:100%;
+        }
+        
+        .cuadernos{
+            margin-bottom:50px;
+            display:grid;
+            grid-template-columns:1fr 3fr 3fr 3fr 1fr;
+            grid-template-areas: 
+            ". J K L ."
+            ". M N O ."
+        }
+        .cuadernoChina{
+            grid-area:J;
+        }
+        .cuadernoNy{
+            grid-area:K;
+        }
+        .cuadernoJapon{
+            grid-area:L;
+        }
+        .cuadernoPug{
+            grid-area:M;
+        }
+        .cuadernoGato{
+            grid-area:N;
+        }
+        .cuadernoGatoCorbata{
+            grid-area:O;
+        }
+        .delantales img{
+            width:100%;
+        }
+        .delantales{
+            margin-bottom:50px;
+            display:grid;
+            grid-template-columns:1fr 3fr 3fr 3fr 1fr;
+            grid-template-areas:
+            ". P Q R ."
+        }
+        .delantalRojo{
+            grid-area:P;
+        }
+        .delantalAzul{
+            grid-area:Q;
+        }
+        .delantalBlanco{
+            grid-area:R;
+        }
+        .post{
+            margin-bottom:50px;
+            display:grid;
+            gap:10px;
+            grid-template-columns:1fr 3fr 3fr 3fr 1fr;
+            grid-template-areas: 
+        " . S T U . "
+        ". V W WW . "
+        ". YY Z AA . "
+        ". BB CC DD . "
+        
+        }
+        .postGlobos{
+            grid-area: S;
+        }
+        .postOficina{
+            grid-area:T;
+        }
+        .postPascua{
+            grid-area:U;
+        }
+        .postMujer{
+            grid-area:V;
+        }
+        .postMujerTv{
+            grid-area:W;
+        }
+        .postHombreAuto{
+            grid-area:WW;
+        }
+        .postCaja{
+            grid-area:YY;
+        }
+        .postCalculadora{
+            grid-area: Z;
+        }
+        .postManos{
+            grid-area: AA;
+        }
+        .postDispensadorBlanco{
+            grid-area:BB;
+        }
+        .postDispensadorNegro{
+            grid-area:CC;
+        }
+        .postDispensador{
+            grid-area: DD;
+        }
+        .mailing{
+            margin-bottom:50px;
+            display:grid;
+            gap:10px;
+            grid-template-columns:1fr 3fr 3fr 1fr;
+            grid-template-areas: 
+        " . EE FF . "
+        ". GG HH . "
+
+        }
+        .mailingAgua{
+            grid-area:EE;
+        }
+        .mailingHotel{
+            grid-area: FF;
+        }
+        .mailingAuto{
+            grid-area: GG;
+        }
+        .mailingFerreteria{
+            grid-area: HH;
+        }
+        /* contacto*/
+        .formulario{
+        
+            background-color:#04aeb2;
+            width:500px;
+            margin:30px auto 60px auto;
+            padding:20px;
+            border-radius:10px;
+            box-shadow: 0px 1px 7px 2px rgba(0,0,0,0.115);
+            -webkit-box-shadow: 0px 1px 7px 2px rgba(0, 0, 0, 0.115);
+            -moz-box-shadow: 0px 1px 7px 2px rgba(0,0,0,0.115);
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            align-items: center;
+        }
+        .campoNombre{
+            width:100%;
+        }
+        
+        .campoMail{
+            width:100%;
+        }
+        
+        .campoTelefono{
+            width:100%;
+        }
+        
+        .campoMensaje{
+            width:100%;
+        }
+        #mensajeArea{
+            width: 100%;
+        }
+        .boton{
+            background-color:#ffffff;
+            color: #04aeb2;
+            margin-left: auto;
+            margin-right: auto;
+            width:50%;
+            height:50px;
+            border-radius:20px;
+        }
+        ::placeholder{
+            color: #b3b3b3;
+            text-align: center;
+        }
+    
+    
+    }
+    @media(min-width:768px)and (max-width:1023px){
+        
+        .presentacionPersonal img{
+            width:90%;
+            }
+        .habilidades{
+            background-color:#f5f5f5;
+            width:80%;
+            border-radius:50px;
+            padding-top:10px;
+            margin-bottom:20px;
+            margin-left: auto;
+            margin-right: auto;
+            display: grid;
+            grid-template-columns:1fr 1fr 1fr;
+        }
+        .soluciones h2, .creatividad h2, .tecnica h2{
+            margin-bottom:20px;
+        }
+        .portadasTrabajo{
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+        }
+        .portadasTrabajo h3{
+            text-align: center;
+            color: #04aeb2;
+        }
+        .cardImpresos{
+            width:70%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .cardRedes{
+            width:70%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .cardDigital{
+            width:70%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .tituloCanciones{
+            width:55%;
+        }
+        /*Estilo Pagina Impresos, redes sociales, digital*/
+        .subTitulos{
+            text-align: center;
+            Color:#ffffff;
+            background-color: #04aeb2;
+            border-radius:100px;
+            width:50%;
+            }
+    }
+    @media(min-width:1024px){
+        header img{
+            width:20%;
+            display: flex;
+            flex-direction:column;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        nav ul{
+            display: flex;
+            flex-direction:row;
+            justify-content: center;
+
+        }
+        nav ul li {
+            font-size:1rem;
+        }
+        nav ul li a:hover{
+            color:#03b6b9;
+        }
+        /* Estilo Index*/
+        .presentacionPersonal{
+            width:70%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom:20px;
+            margin-top:50px;
+            display: flex;
+            flex-direction:row;
+            justify-content: center;
+            
+        }
+        .presentacionPersonal img{
+            width:30%;
+            margin-right:50px;
+            margin-left:120px;
+        }
+        
+        .textoPresentacion h1{
+            font-size:2rem;
+            color: #7d7d7d;
+            line-height:35px;
+        }
+        .textoPresentacion h1:hover{
+            color:#03b6b9;
+        }
+        
+        .textoPresentacion {
+            color: #7d7d7d;
+            line-height:28px;
+            text-align:justify;
+        }
+        .habilidades{
+            
+            width:50%;
+            border-radius:90px;
+            margin-top:50px;
+            margin-bottom:50px;
+            margin-left: auto;
+            margin-right: auto;
+            display: grid;
+            grid-template-columns:1fr 1fr 1fr;
+        }
+        .soluciones h2, .creatividad h2, .tecnica h2{
+            margin-bottom:20px;
+            font-size:1rem;
+        }
+        .soluciones img:hover{
+            transform:rotate(20deg);
+        }
+        .creatividad img:hover{
+            transform:rotate(20deg);
+            }
+        .tecnica img:hover{
+            transform:rotate(20deg);
+            }
+        .portadasTrabajo{
+            margin-top:100px;
+            margin-bottom:80px;
+            display:grid;
+            grid-template-columns:1fr 3fr 3fr 3fr 1fr;
+            grid-template-areas:
+            ". a b c ."
+            ;
+        }
+        
+        .cardImpresos{
+            margin-left: auto;
+            margin-right: auto;
+            grid-area: a;
+            width:80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition-duration:1.5s;
+        }
+        .cardImpresos:hover{
+            transform: scale(1.1);
+        }
+        
+        
+        .cardRedes{
+            margin-left: auto;
+            margin-right: auto;
+            grid-area: b;
+            width:80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition-duration:1.5s;
+        }
+        .cardRedes:hover{
+            transform: scale(1.1);
+        }
+        
+        .cardDigital{
+            grid-area: c;
+            width:80%;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition-duration:1.5s;
+        }
+        .cardDigital:hover{
+            transform: scale(1.1);
+        }
+
+
+        .cajaContenidoMusica{
+            display: flex;
+            flex-direction:row;
+            justify-content: center;
+            margin-bottom:50px;
+            }
+            
+        
+        .tituloCanciones{
+            width:30%;
+            margin-bottom:50px;
+        }
+        .cajaContenidoMusica iframe{
+            width:250px;
+            height:380px;
+            margin-right:20px;
+        }
+        footer a:hover {
+            color:#03b6b9;
+        }
+        /*Estilo Pagina Impresos, redes sociales , digital*/
+        .subTitulos{
+            text-align: center;
+            Color:#ffffff;
+            background-color: #04aeb2;
+            border-radius:100px;
+            width:30%;
+            }
+            
+        /*Estilo Pagina Impresos, redes sociales, Digital animaciones (hovers) */
+        .cintilloFiesta{
+            transition-duration:1.5s;
+            }
+        .cintilloFiesta:hover{
+            transform: scale(1.2);
+        }
+        .cintilloAlcohol{
+            transition-duration:1.5s;
+            }
+        .cintilloAlcohol:hover{
+            transform: scale(1.2);
+        }
+        .cintilloFeminista{
+            transition-duration:1.5s;
+        }
+        .cintilloFeminista:hover{
+            transform: scale(1.2);
+        }
+            
+        .cintilloPuno{
+            transition-duration:1.5s;
+        }
+        .cintilloPuno:hover{
+            transform: scale(1.2);
+        }
+        .cintilloFiestaAlcohol{
+            transition-duration:1.5s;
+        }
+        .cintilloFiestaAlcohol:hover{
+            transform: scale(1.2);
+        }
+        .cintilloBebedor{
+            transition-duration:1.5s;
+        }
+        .cintilloBebedor:hover{
+            transform: scale(1.2);
+        }
+        .cotillonMesa{
+            transition-duration:1.5s;
+        }
+        .cotillonMesa:hover{
+            transform: scale(1.2);
+        }
+        .cotillonPrincesa{
+            transition-duration:1.5s;
+        }
+        .cotillonPrincesa:hover{
+            transform: scale(1.2);
+        }
+        .cotillonChile{
+            transition-duration:1.5s;
+        }
+        .cotillonChile:hover{
+            transform: scale(1.2);
+        }
+        .cuadernoChina{
+            transition-duration:1.5s;
+        }
+        .cuadernoChina:hover{
+            transform: scale(1.2);
+        }
+        .cuadernoNy{
+            transition-duration:1.5s;
+        }
+        .cuadernoNy:hover{
+            transform: scale(1.2);
+        }
+        .cuadernoJapon{
+            transition-duration:1.5s;
+        }
+        .cuadernoJapon:hover{
+            transform: scale(1.2);
+        }
+        .cuadernoPug{
+            transition-duration:1.5s;
+        }
+        .cuadernoPug:hover{
+            transform: scale(1.2);
+        }
+        .cuadernoGato{
+            transition-duration:1.5s;
+        }
+        .cuadernoGato:hover{
+            transform: scale(1.2);
+        }
+        .cuadernoGatoCorbata{
+            transition-duration:1.5s;
+        }
+        .cuadernoGatoCorbata:hover{
+            transform: scale(1.2);
+        }
+        
+        .delantalRojo{
+            transition-duration:1.5s;
+        }
+        .delantalRojo:hover{
+            transform: scale(1.2);
+        }
+        .delantalAzul{
+            transition-duration:1.5s;
+        }
+        .delantalAzul:hover{
+            transform: scale(1.2);
+        }
+        .delantalBlanco{
+            transition-duration:1.5s;
+        }
+        .delantalBlanco:hover{
+            transform: scale(1.2);
+        }
+        .postGlobos{
+            transition-duration:1.5s;
+        }
+        .postGlobos:hover{
+            transform: scale(1.2);
+        }
+        .postOficina{
+            transition-duration:1.5s;
+        }
+        .postOficina:hover{
+            transform: scale(1.2);
+        }
+        .postPascua{
+            transition-duration:1.5s;
+        }
+        .postPascua:hover{
+            transform: scale(1.2);
+        }
+        .postMujer{
+            transition-duration:1.5s;
+        }
+        .postMujer:hover{
+            transform: scale(1.2);
+        }
+        .postMujerTv{
+            transition-duration:1.5s;
+        }
+        .postMujerTv:hover{
+            transform: scale(1.2);
+        }
+        .postHombreAuto{
+            transition-duration:1.5s;
+        }
+        .postHombreAuto:hover{
+            transform: scale(1.2);
+        }
+        .postCaja{
+            transition-duration:1.5s;
+        }
+        .postCaja:hover{
+            transform: scale(1.2);
+        }
+        .postCalculadora{
+            transition-duration:1.5s;
+        }
+        .postCalculadora:hover{
+            transform: scale(1.2);
+        }
+        .postManos{
+            transition-duration:1.5s;
+        }
+        .postManos:hover{
+            transform: scale(1.2);
+        }
+        .postDispensadorBlanco{
+            transition-duration:1.5s;
+        }
+        .postDispensadorBlanco:hover{
+            transform: scale(1.2);
+        }
+        .postDispensadorNegro{
+            transition-duration:1.5s;
+        }
+        .postDispensadorNegro:hover{
+            transform: scale(1.2);
+        }
+        .postDispensador{
+            transition-duration:1.5s;
+        }
+        .postDispensador:hover{
+            transform: scale(1.2);
+        }
+        .banners{
+            margin-bottom:50px;
+            display:grid;
+            gap:10px;
+            grid-template-columns:1fr 3fr 3fr 1fr;
+            grid-template-areas: 
+        " . II JJ . "
+        ". KK LL . "
+        ". MM NN . "
+        }
+        .bannerGlobos{
+            grid-area: II;
+            transition-duration:1.5s;
+        }
+        .bannerGlobos:hover{
+            transform: scale(1.2);
+        }
+
+        .bannerManualidades{
+            grid-area: JJ;
+            transition-duration:1.5s;
+        }
+        .bannerManualidades:hover{
+            transform: scale(1.2);
+        }
+        .bannerOficina{
+            grid-area:KK;
+            transition-duration:1.5s;
+        }
+        .bannerOficina:hover{
+            transform: scale(1.2);
+        }
+        .bannerNavidad{
+            grid-area: LL;
+            transition-duration:1.5s;
+        }
+        .bannerNavidad:hover{
+            transform: scale(1.2);
+        }
+        .bannerCotillon{
+            grid-area: MM;
+            transition-duration:1.5s;
+        }
+        .bannerCotillon:hover{
+            transform: scale(1.2);
+        }
+        .bannerFiesta{
+            grid-area: NN;
+            transition-duration:1.5s;
+        }
+        .bannerFiesta:hover{
+            transform: scale(1.2);
+        }
+        
+        .mailing{
+            margin-top:50px;
+            margin-bottom:50px;
+            display:grid;
+            gap:10px;
+            grid-template-columns:1fr 2fr 2fr 2fr 2fr 1fr;
+            grid-template-areas: 
+            " . OO PP QQ RR . "
+            }
+        .mailingAgua{
+            grid-area: OO;
+            transition-duration:1.5s;
+        }
+        .mailingAgua:hover{
+            transform: scale(1.2);
+        }
+        .mailingHotel{
+            grid-area: PP;
+            transition-duration:1.5s;
+        }
+        .mailingHotel:hover{
+            transform: scale(1.2);
+        }
+        .mailingAuto{
+            grid-area:QQ;
+            transition-duration:1.5s;
+        }
+        .mailingAuto:hover{
+            transform: scale(1.2);
+        }
+        .mailingFerreteria{
+            grid-area: RR;
+            transition-duration:1.5s;
+        }
+        .mailingFerreteria:hover{
+            transform: scale(1.2);
+        }
+        }
