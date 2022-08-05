@@ -1,0 +1,140 @@
+header{
+    img{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20px;
+    }
+}
+/* estilo del nav*/
+nav {
+    background-color: #ebfbfb;
+}
+ul{
+    display:flex;
+    flex-direction:column;
+}
+nav{
+    ul 
+    {
+        li {
+    font-size:1rem;
+    padding: 10px;
+    margin-left:auto;
+    margin-right: auto;
+    list-style-type: none;
+        }
+    }
+}
+ul{
+    li{
+        a {
+    color: #7d7d7d;
+    text-decoration: none;
+        }
+    }
+}
+/*Estilo Index*/
+.presentacionPersonal{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.presentacionPersonal{
+    img{
+    width:80%;
+    }
+}
+.textoPresentacion{
+    text-align: center;
+}
+.textoPresentacion{
+    h1{
+    font-size:2rem;
+    color: #7d7d7d;
+    line-height:35px;
+    }
+}   
+.textoPresentacion {
+    color: #7d7d7d;
+    line-height:28px;
+}
+.habilidades{
+    background-color:#f5f5f5;
+    width: 100%;
+    border-radius:20px;
+    padding-top:10px;
+    margin-bottom:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.habilidades{
+    img{
+    width:100%;
+    }
+}
+.soluciones, .creatividad , .tecnica {
+    h2{
+    color: #04aeb2;
+    }
+}
+
+.portadasTrabajo{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.portadasTrabajo{
+    h3{
+    text-align: center;
+    color: #04aeb2;
+    }
+}
+
+.tituloCanciones{
+    margin-left:auto;
+    margin-right: auto;
+    width:100%;
+    text-align:center;
+    font-size:1.5rem;
+    color:#ffffff;
+    background-color: #04aeb2;
+    border-radius:20px;
+}
+.cajaContenidoMusica{
+    iframe{
+    width:100%;
+    height:100px;
+    margin-bottom:10px;
+    }
+}
+/* estilo del footer*/
+footer {
+    background-color:#000000;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+footer{
+    ul {
+        li {
+    text-align:center;
+    line-height:30px;
+        }
+    }
+}
+footer{
+    p{
+    font-size:15px;
+    color: #5a5a5a;
+    text-align: center;
+    padding-bottom:20px;
+}
+}
