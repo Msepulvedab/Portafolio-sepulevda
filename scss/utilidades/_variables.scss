@@ -1,0 +1,56 @@
+$color-principal:#04aeb2;
+$color-secundario:#7d7d7d;
+
+header {
+    background-color:$color-principal;
+}
+ul{
+    li {
+        a {
+    color:$color-secundario;
+        }
+    }
+}
+.textoPresentacion {
+    h1 {
+    color:$color-secundario;
+    }
+}
+.textoPresentacion {
+    color:$color-secundario;
+    
+}
+.soluciones, .creatividad, .tecnica{
+    h2{
+    color:$color-principal;
+    }
+}
+.portadasTrabajo{
+    h3 {
+    color:$color-principal;
+    }
+}
+.tituloCanciones {
+    background-color:$color-principal;
+}
+.titulos {
+    color:$color-secundario;
+}
+.subTitulos {
+    background-color:$color-principal;
+}
+.textos {
+    color:$color-secundario;
+}
+
+.textosSecundarios {
+    color:$color-principal;
+    
+}
+.formulario {
+    background-color:$color-principal;
+    
+}
+.boton {
+    color:$color-principal;
+}
